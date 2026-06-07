@@ -37,7 +37,7 @@ The comparison focused on business metrics such as:
 | Revenue Growth | Revenue increased by **33% in 2016** and **24% in 2017**, showing strong and consistent growth. |
 | Top Markets | The strongest markets were the **USA (15.8%)**, **UK (8.6%)**, and **Germany (8.4%)**. |
 | Specialty vs General Stores | **Golf Shops** had a much higher average order value than **Sports Stores**: **€14,640 vs €5,245**. |
-| Order Channels | Web orders dominated, with **124K out of around 149K total orders**. |
+| Order Methods | Web orders dominated, with **124K out of around 149K total orders**. |
 | Highest Discounts | **Brazil** had the highest discount rate at **4.36%**, but contributed a relatively low revenue share. |
 
 ## Data Workflow
@@ -92,7 +92,7 @@ Contributors:
 
 ```text
 raw_data/              Original spreadsheet data
-bigquery_queries/      SQL queries used for analysis and KPI calculation
+bigquery/      SQL queries used for analysis and KPI calculation
 dashboards/            Looker Studio dashboard screenshots or PDF exports
 presentation/          Final stakeholder presentation
 images/                Supporting visuals and project screenshots
