@@ -1,5 +1,5 @@
 # Dashboards
 
-This folder contains dashboard screenshots or links created for the GoExplore project.
+This folder contains the Looker Studio dashboard exports and screenshots created for the GoExplore analytics project.
 
-The dashboard work focuses on choosing the right chart types, communicating insights clearly, and building business-facing visual reports.
+The dashboard was used to communicate business KPIs, market performance, retailer insights, and sales channel trends.
