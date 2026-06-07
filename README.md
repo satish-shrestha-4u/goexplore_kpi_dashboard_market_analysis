@@ -73,9 +73,11 @@ The dashboard provides an overview of revenue performance, market trends, retail
 
 This was completed as a collaborative analytics project.
 Contributors:
+* Aylin Yildiz
 * Mohammad Yahya Faqirzada
 * Sarah Alkhaledova
 * Satish Shrestha
+
 
 ## Tools Used
 
