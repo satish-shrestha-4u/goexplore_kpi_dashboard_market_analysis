@@ -40,6 +40,17 @@ The comparison focused on business metrics such as:
 | Order Methods | Web orders dominated, with **124K out of around 149K total orders**. |
 | Highest Discounts | **Brazil** had the highest discount rate at **4.36%**, but contributed a relatively low revenue share. |
 
+## 📊 Key numbers
+|Metric	|Value |
+|---|---|
+| Total Revenue|	$1.3B
+| Gross Profit	|$527M
+| Gross Margin	|42.2%
+| Units Sold	|19.8M
+| Active Markets |21 countries
+| Top Market	|USA ($197M)
+| Top Channel	|Web (72.7%)
+
 ## Data Workflow
 
 ```text
