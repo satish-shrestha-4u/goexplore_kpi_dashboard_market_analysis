@@ -6,12 +6,14 @@ The file represents the raw sales data before loading it into BigQuery and befor
 
 ## File
 
-- `goexplore_sales_data.xlsx` — original GoExplore sales dataset covering sales data from 2015 to 2018
+- `GoExplore.xlsx` — original GoExplore spreadsheet provided for the project covering sales data from 2015 to 2018
+- `csv_tables/` — CSV versions of the spreadsheet tables prepared for BigQuery
 
 ## Usage
 
+The Excel file represents the original source data.
+The CSV files were used to create structured BigQuery tables for SQL analysis and dashboard development.
 This raw spreadsheet was used as the source data for:
-
 - Google Sheets review
 - BigQuery table creation
 - SQL-based KPI calculations
