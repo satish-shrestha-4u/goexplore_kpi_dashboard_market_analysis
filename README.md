@@ -102,8 +102,7 @@ Contributors:
 ## Repository Structure
 
 ```text
-raw_data/              Original spreadsheet data
 bigquery/      SQL queries used for analysis and KPI calculation
 dashboards/            Looker Studio dashboard screenshots or PDF exports
-presentation/          Final stakeholder presentation
 images/                Supporting visuals and project screenshots
+raw_data/              Original spreadsheet data
