@@ -73,6 +73,8 @@ The main KPI dashboard is included in the dashboards/ folder as a PDF export or 
 
 The dashboard provides an overview of revenue performance, market trends, retailer behaviour, order channels, and discount patterns.
 
+👉 Link to live Looker Studio dashboard https://datastudio.google.com/reporting/8cad7480-5da6-4236-8434-3ea1149075e8
+
 ## How to Use This Repository
 
 * Open the dashboard files in dashboards/ to review the final KPI report.
