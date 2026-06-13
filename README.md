@@ -80,7 +80,6 @@ The dashboard provides an overview of revenue performance, market trends, retail
 * Open the dashboard files in dashboards/ to review the final KPI report.
 * Review the SQL queries in bigquery_queries/ to understand how the KPIs were calculated.
 * Check the original spreadsheet in raw_data/ to see the starting dataset.
-* Open the files in presentation/ to review the final business recommendation.
 
 ## Project Collaboration
 
@@ -104,7 +103,7 @@ Contributors:
 ## Repository Structure
 
 ```text
-bigquery/      SQL queries used for analysis and KPI calculation
+bigquery/              SQL queries used for analysis and KPI calculation
 dashboards/            Looker Studio dashboard screenshots or PDF exports
 images/                Supporting visuals and project screenshots
 raw_data/              Original spreadsheet data
