@@ -1,109 +1,135 @@
-# goexplore_kpi_dashboard_market_analysis
-Business KPI dashboard and market analysis project using Google Sheets, BigQuery, and Looker Studio/Data Studio.
+# 📊 GoExplore KPI Dashboard & Market Analysis
 
-This project presents a business analytics solution for GoExplore, a camping and hiking equipment supplier with strong year-on-year growth.
+Business analytics project using **Google Sheets, BigQuery, SQL, and Data Studio** to transform raw business data into KPIs, market analysis, and interactive dashboards.
 
-The goal was to move from a raw spreadsheet to a structured analytics workflow, including spreadsheet analysis, BigQuery data modelling, and business KPI dashboards.
+🚀 [Live Data Studio Dashboard](https://datastudio.google.com/reporting/8cad7480-5da6-4236-8434-3ea1149075e8?utm_source=chatgpt.com)
 
-## Project Overview
+## 📌 Project Overview
 
-GoExplore needed a clearer view of business performance across markets, retailers, products, and sales channels.
+GoExplore is a camping and hiking equipment supplier experiencing strong year-on-year growth. The objective of this project was to move from raw spreadsheet data to a structured analytics workflow and create dashboards that support business decision-making.
 
-The project focused on preparing the data, defining relevant KPIs, querying the data in BigQuery, and building dashboards to support business decision-making.
+The analysis focused on:
+- 🌍 Market expansion opportunities
+- 💰 Revenue and business performance
+- 🏪 Product and retailer performance
+- 🛍️ Speciality vs. general retailers
+- 📦 Order channels and methods
+- 🏷️ Discount patterns
 
-## Business Questions
+## 🎯 Business Questions
 
-### 1. European Market Expansion
+### 1. 🌍 European Market Expansion
 
-GoExplore wanted to evaluate potential expansion into new European countries (the Czech Republic, Norway, Poland, and Portugal) by comparing them with existing GoExplore markets using indicators such as revenue performance, performance patterns, population, GDP, and regional similarity.
+GoExplore wanted to evaluate potential expansion into **the Czech Republic, Norway, Poland, and Portugal**.
 
-### 2. Specialty vs General Retailers
+The analysis compared potential markets with existing GoExplore markets using indicators including:
 
-The business also wanted to understand whether specialty retailers perform differently from general retailers.
+- Revenue performance
+- Performance patterns
+- Population
+- GDP
+- Regional similarity
 
-Specialty retailers include stores focused on a specific product range, such as Golf Shops or Eyewear Stores. General retailers include broader stores such as Sports Stores or Outdoors Shops.
+### 2. 🏪 Speciality vs. General Retailers
 
-The comparison focused on business metrics such as:
+The project also investigated whether speciality retailers perform differently from general retailers.
+
+Speciality retailers include stores focused on specific product ranges, while general retailers cover broader categories such as Sports Stores and Outdoors Shops.
+
+The comparison considered:
+
 - Average order value
 - Average product price
-- Number of orders per retailer
+- Orders per retailer
 - Revenue contribution by retailer type
 
+## 💡 Key Business Insights
 
-## Key KPIs and Insights
-
-| KPI | Finding |
+| Area | Finding |
 |---|---|
-| Revenue Growth | Revenue increased by **33% in 2016** and **24% in 2017**, showing strong and consistent growth. |
-| Top Markets | The strongest markets were the **USA (15.8%)**, **UK (8.6%)**, and **Germany (8.4%)**. |
-| Specialty vs General Stores | **Golf Shops** had a much higher average order value than **Sports Stores**: **€14,640 vs €5,245**. |
-| Order Methods | Web orders dominated, with **124K out of around 149K total orders**. |
-| Highest Discounts | **Brazil** had the highest discount rate at **4.36%**, but contributed a relatively low revenue share. |
+| 📈  Revenue Growth | Revenue increased **33% in 2016** and **24% in 2017** |
+| 🌍  Top Market | The **USA** generated the highest revenue share at **15.8%** |
+| 🇬🇧🇩🇪 Other Strong Markets | **UK: 8.6%** · **Germany: 8.4%** |
+| 🏪 Retailer Performance | Golf Shops had a substantially higher average order value than Sports Stores (**€14,640 vs. €5,245**) |
+| 🌐 Order Methods | Web orders represented approximately **124K of 149K total orders** |
+| 🏷️ Discounting | Brazil had the highest discount rate at **4.36%**, despite a relatively low revenue share |
 
-## 📊 Key numbers
-|Metric	|Value |
-|---|---|
-| Total Revenue|	$1.3B
-| Gross Profit	|$527M
-| Gross Margin	|42.2%
-| Units Sold	|19.8M
-| Active Markets |21 countries
-| Top Market	|USA ($197M)
-| Top Channel	|Web (72.7%)
 
-## Data Workflow
+
+## 📊 KPI Snapshot
+
+| Metric | Value |
+|---|---:|
+|💰 Total Revenue | **$1.3B** |
+|💵 Gross Profit | **$527M** |
+|📈 Gross Margin | **42.2%** |
+|📦 Units Sold | **19.8M** |
+|🌍 Active Markets | **21 countries** |
+|🥇 Top Market | **USA ($197M)** |
+|🌐 Top Channel | **Web (72.7%)** |
+
+## 🔄 Data & Analytics Workflow
 
 ```text
-Original spreadsheet
+Raw Spreadsheet Data
         ↓
-Google Sheets review
+Google Sheets Data Review
         ↓
-BigQuery
+BigQuery Data Modelling
         ↓
-SQL queries and KPI calculations
+SQL Analysis & KPI Calculations
         ↓
-Looker Studio dashboards
+Data Studio Dashboards
         ↓
-Final business presentation
+Business Insights & Recommendations
 ```
 
-## Dashboard
+## 🌐 Dashboard
 
-The main KPI dashboard is included in the dashboards/ folder as a PDF export or screenshot.
+The Looker Studio dashboard provides an interactive view of:
+- 🌍 Market expansion
+- 📊 Revenue and KPI performance
+- 🏪 Product and store analysis
+- 📈 Performance over time
+- 📦 Product performance
+- 🏪 Retailer performance
+- 🛒 Order methods
+- 💰 Revenue share and market contribution
 
-The dashboard provides an overview of revenue performance, market trends, retailer behaviour, order channels, and discount patterns.
+[🔗 Live Data Studio Dashboard](https://datastudio.google.com/reporting/8cad7480-5da6-4236-8434-3ea1149075e8?utm_source=chatgpt.com)
 
-👉 Link to live Looker Studio dashboard https://datastudio.google.com/reporting/8cad7480-5da6-4236-8434-3ea1149075e8
-
-## How to Use This Repository
-
-* Open the dashboard files in dashboards/ to review the final KPI report.
-* Review the SQL queries in bigquery_queries/ to understand how the KPIs were calculated.
-* Check the original spreadsheet in raw_data/ to see the starting dataset.
-
-## Project Collaboration
-
-This was completed as a collaborative analytics project.
-Contributors:
-* Aylin Yildiz
-* Mohammad Yahya Faqirzada
-* Sarah Alkhaledova
-* Satish Shrestha
-
-
-## Tools Used
-
-- Google Sheets
-- BigQuery
-- SQL
-- Looker Studio
-- Data modelling
-- Dashboard design
-
-## Repository Structure
+## 🗂️ Repository Structure
 
 ```text
-bigquery/              SQL queries used for analysis and KPI calculation
-dashboards/            Looker Studio dashboard screenshots or PDF exports
-images/                Supporting visuals and project screenshots
-raw_data/              Original spreadsheet data
+bigquery/
+    SQL queries used for analysis and KPI calculations
+
+dashboards/
+    Data Studio dashboard screenshots / PDF exports
+
+images/
+    Supporting project visuals and screenshots
+
+raw_data/
+    Original spreadsheet data
+```
+
+## 🛠️ Tools & Technologies
+- 🐍 SQL
+- ☁️ Google BigQuery
+- 📊 Looker Studio
+- 📋 Google Sheets
+- 🗃️ Data Modelling
+- 📈 Dashboard Design
+- 💼 Business Analytics
+
+## 👥 Project Collaboration
+
+This was completed as a collaborative analytics project.
+
+**Contributors:**
+
+- Aylin Yildiz
+- Mohammad Yahya Faqirzada
+- Sarah Alkhaledova
+- Satish Shrestha
